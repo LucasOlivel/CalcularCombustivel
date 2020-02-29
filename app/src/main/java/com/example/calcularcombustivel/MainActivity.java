@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 gasolina = progress/100d;
                 precoGasTextView.setText(precoFormat.format(gasolina));
-                if(gasolina != 0){
+                if(gasolina != 0 && etanol != 0){
                     calcularResult();
                 }
             }
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 etanol = progress/100d;
                 precoEtaTextView.setText(precoFormat.format(etanol));
-                if(etanol != 0) {
+                if(etanol != 0 && gasolina != 0) {
                     calcularResult();
                 }
             }
