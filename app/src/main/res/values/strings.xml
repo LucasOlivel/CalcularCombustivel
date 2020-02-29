@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculate Fuel</string>
+    <string name="text_gasolina">Price of liter of gasoline</string>
+    <string name="text_etanol">Price of liter of ethanol</string>
+    <string name="resultEtanol">Ethanol</string>
+    <string name="resultGasolina">Gasoline</string>
+</resources>

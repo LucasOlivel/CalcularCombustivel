@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计算燃料</string>
+    <string name="resultEtanol">乙醇</string>
+    <string name="resultGasolina">汽油</string>
+    <string name="text_etanol">一升乙醇的价格</string>
+    <string name="text_gasolina">汽油价格</string>
+</resources>
